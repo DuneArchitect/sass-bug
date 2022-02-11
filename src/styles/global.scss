@@ -1,0 +1,111 @@
+@import '_variables';
+
+html {
+  box-sizing: border-box;
+  line-height: 1;
+}
+
+html,
+body {
+  position: relative;
+  height: 100%;
+  z-index: -100;
+}
+
+html {
+  overflow: auto;
+  box-sizing: border-box;
+  line-height: 1;
+}
+
+*,
+*:before,
+*:after {
+  box-sizing: inherit;
+  touch-action: manipulation;
+  -webkit-tap-highlight-color: rgba(0, 0, 0, 0);
+}
+
+main {
+  display: block;
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+p {
+  margin: 0;
+}
+
+button {
+  cursor: pointer;
+  background: none;
+  border: none;
+  padding: 0px;
+}
+
+ul,
+li {
+  list-style: none;
+  margin: 0;
+  padding: 0;
+}
+
+// Remove browser input styles
+input[type='text'],
+input[type='tel'],
+input[type='url'],
+input[type='email'],
+input[type='submit'],
+select,
+textarea,
+option,
+select,
+button {
+  -webkit-appearance: none;
+  -moz-appearance: none;
+  appearance: none;
+}
+
+// Remove input focus outline
+input:focus,
+select:focus,
+textarea:focus,
+option:focus,
+select:focus,
+button:focus {
+  outline: none;
+}
+
+/* Auto-clear placeholder text */
+::-webkit-input-placeholder {
+  color: #fff;
+  opacity: 1;
+}
+:-moz-placeholder {
+  color: #fff;
+  opacity: 1;
+} /* FF 4-18 */
+::-moz-placeholder {
+  color: #fff;
+  opacity: 1;
+} /* FF 19+ */
+:-ms-input-placeholder {
+  color: #fff;
+  opacity: 1;
+} /* IE 10+ */
+input:focus::-webkit-input-placeholder {
+  color: transparent;
+}
+input:focus:-moz-placeholder {
+  color: transparent;
+} /* FF 4-18 */
+input:focus::-moz-placeholder {
+  color: transparent;
+} /* FF 19+ */
+input:focus:-ms-input-placeholder {
+  color: transparent;
+} /* IE 10+ */

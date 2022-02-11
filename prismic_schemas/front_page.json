@@ -1,0 +1,150 @@
+{
+  "Main" : {
+    "lineup_image_desktop" : {
+      "type" : "Image",
+      "config" : {
+        "constraint" : {
+          "width" : null,
+          "height" : null
+        },
+        "thumbnails" : [ ],
+        "label" : "Lineup Image Desktop"
+      }
+    },
+    "lineup_image_tablet" : {
+      "type" : "Image",
+      "config" : {
+        "constraint" : { },
+        "thumbnails" : [ ],
+        "label" : "Lineup Image Tablet"
+      }
+    },
+    "lineup_image_mobile" : {
+      "type" : "Image",
+      "config" : {
+        "constraint" : { },
+        "thumbnails" : [ ],
+        "label" : "Lineup Image Mobile"
+      }
+    },
+    "hide_countdown" : {
+      "type" : "Boolean",
+      "config" : {
+        "placeholder_false" : "show",
+        "placeholder_true" : "hide",
+        "default_value" : false,
+        "label" : "Hide Countdown"
+      }
+    },
+    "countdown_date" : {
+      "type" : "Timestamp",
+      "config" : {
+        "label" : "Countdown Date"
+      }
+    },
+    "tickets_title" : {
+      "type" : "StructuredText",
+      "config" : {
+        "single" : "heading2",
+        "label" : "Tickets Title",
+        "placeholder" : "Tickets"
+      }
+    },
+    "ticket_purchase_link" : {
+      "type" : "Link",
+      "config" : {
+        "allowTargetBlank" : true,
+        "label" : "Ticket Purchase Link",
+        "select" : null
+      }
+    },
+    "event_dates" : {
+      "type" : "StructuredText",
+      "config" : {
+        "single" : "heading2",
+        "label" : "Event Dates",
+        "placeholder" : "June 11 - 14"
+      }
+    },
+    "event_synopsis" : {
+      "type" : "Group",
+      "config" : {
+        "fields" : {
+          "synopsis_block_title" : {
+            "type" : "StructuredText",
+            "config" : {
+              "single" : "heading3",
+              "label" : "Synopsis Block Title",
+              "placeholder" : "Wellness"
+            }
+          },
+          "synopsis_block_text" : {
+            "type" : "StructuredText",
+            "config" : {
+              "single" : "preformatted,strong,em,hyperlink,embed,list-item,o-list-item",
+              "allowTargetBlank" : true,
+              "label" : "Synopsis Block Text",
+              "placeholder" : "Balance your body & soul with daily yoga..."
+            }
+          }
+        },
+        "label" : "Event Synopsis"
+      }
+    },
+    "promo_video" : {
+      "type" : "Embed",
+      "config" : {
+        "label" : "Promo Video",
+        "placeholder" : "youtube.com/watch?"
+      }
+    },
+    "info_title" : {
+      "type" : "StructuredText",
+      "config" : {
+        "single" : "heading2",
+        "label" : "Info Title",
+        "placeholder" : "Info"
+      }
+    },
+    "info_text" : {
+      "type" : "StructuredText",
+      "config" : {
+        "multi" : "paragraph,preformatted,heading1,heading2,heading3,heading4,heading5,heading6,strong,em,hyperlink,image,embed,list-item,o-list-item,rtl",
+        "allowTargetBlank" : true,
+        "label" : "Info Text"
+      }
+    },
+    "faqs_title" : {
+      "type" : "StructuredText",
+      "config" : {
+        "single" : "heading2",
+        "label" : "FAQS Title",
+        "placeholder" : "FAQS"
+      }
+    },
+    "faqs_text" : {
+      "type" : "StructuredText",
+      "config" : {
+        "multi" : "paragraph,preformatted,heading1,heading2,heading3,heading4,heading5,heading6,strong,em,hyperlink,image,embed,list-item,o-list-item,rtl",
+        "allowTargetBlank" : true,
+        "label" : "FAQS Text"
+      }
+    },
+    "footer_quote" : {
+      "type" : "StructuredText",
+      "config" : {
+        "single" : "heading4",
+        "label" : "Footer Quote",
+        "placeholder" : "We can never obtain peace..."
+      }
+    },
+    "footer_quote_background" : {
+      "type" : "Image",
+      "config" : {
+        "constraint" : { },
+        "thumbnails" : [ ],
+        "label" : "Footer Quote Background"
+      }
+    }
+  }
+}
